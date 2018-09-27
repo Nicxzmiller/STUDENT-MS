@@ -1,13 +1,28 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Student Management System</title>
-</head>
-<body>
+<?php
+    include "templates/header.php";
+?>
+<div>
+    <h1>Government Secondary School</h1>
+    <hr class="uk-divider-icon">
+</div>
+<form action="">
+    <div class="uk-margin">
+        <label class="uk-form-label" for=""><block> Student Name : </block></label>
+        <div class="uk-inline">
+            <span class="uk-form-icon" uk-icon="icon: user"></span>
+            <input class="uk-input" type="text">
+        </div>
+    </div>
 
-</body>
-</html>
+    <div class="uk-margin">
+        <label class="uk-form-label" for=""><block>Student Number : </block> </label>
+        <div class="uk-inline">
+            <span class="uk-form-icon uk-form-icon-flip"></span>
+            <input class="uk-input" type="text">
+        </div>
+    </div>
+</form>
+
+<?php
+include "templates/footer.php";
+?>
